@@ -1,0 +1,2 @@
+<?php die('Direct call - access denied'); ?>
+a:1:{i:1394543451;a:13:{s:2:"id";i:1394543451;s:1:"t";s:3:"UP!";s:1:"u";s:4:"qrak";s:1:"c";s:0:"";s:1:"s";s:109:"Trwają obecnie testy związane z padami serwera gdyż prawdopodobnie zostały naprawione. Zapraszamy do gry.";s:1:"f";s:0:"";s:2:"ht";b:0;s:2:"st";s:0:"";s:2:"co";a:0:{}s:2:"cc";b:0;s:2:"tg";s:0:"";s:2:"pg";s:0:"";s:2:"mf";a:0:{}}}

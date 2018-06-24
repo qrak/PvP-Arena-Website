@@ -1,0 +1,1 @@
+﻿<META HTTP-EQUIV="Refresh" CONTENT="1;URL=http://tuba.mydevil.net/www/">

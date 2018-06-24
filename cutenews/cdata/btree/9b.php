@@ -1,0 +1,2 @@
+<?php die('Direct call - access denied'); ?>
+a:3:{s:6:"nid_ts";a:1:{s:32:"9bf31c7ff062936a96d3c8bd1f8f2ff3";i:1394543451;}s:5:"ts_pg";a:0:{}s:6:"nts_id";a:1:{s:32:"9bb6763247e8de6e8e74ce1bf5510bd6";i:34;}}

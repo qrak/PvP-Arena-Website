@@ -1,0 +1,3 @@
+<?php die('Direct call - access denied'); ?>
+a:1:{i:1396175199;a:13:{s:2:"id";i:1396175199;s:1:"t";s:15:"Zmiany 30/03/14";s:1:"u";s:4:"qrak";s:1:"c";s:0:"";s:1:"s";s:114:"- Zmiana: Dmg gorxa zmniejszone.
+- Dodano: Królewskie złoto do championów (gorx 40k, ixodynix i 69 exodus 70k)";s:1:"f";s:0:"";s:2:"ht";b:0;s:2:"st";s:0:"";s:2:"co";a:0:{}s:2:"cc";b:0;s:2:"tg";s:0:"";s:2:"pg";s:0:"";s:2:"mf";a:0:{}}}

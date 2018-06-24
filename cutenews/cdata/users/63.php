@@ -1,0 +1,2 @@
+<?php die('Direct call - access denied'); ?>
+a:1:{s:4:"name";a:1:{s:4:"qrak";a:9:{s:2:"id";s:10:"1393022450";s:4:"name";s:4:"qrak";s:3:"acl";s:1:"1";s:5:"email";s:0:"";s:4:"pass";s:64:"f4646727b8a7d2a42de94b5b720fbea5ba03d86b7f3a94e45bf9237cfa384d8d";s:3:"cnt";s:2:"34";s:3:"ban";s:1:"0";s:3:"lts";s:10:"1397662152";s:4:"nick";s:0:"";}}}
