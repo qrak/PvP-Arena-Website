@@ -25,35 +25,7 @@ function getdata() {
     /* stored per line and read back so that each line is read into an array.          */
     /* Each line is an element in our array just like how we recorded it before in     */
     /* reverse from array to newlines into the text file                               */
-    if((date('U') - filemtime($filename)) < 60) {
-      return file($filename);
-    }
-  }
-
-  if (($fsocked = @fsockopen("127.0.0.1", 2020, $errno, $errstr, 2)) === FALSE) {
-    return "die";
-  }
-
-  /* Sent as string from pol, so can parse off the prepended S and get the amount.*/
-  /* Request Account count */
-  /* This is where the password gets changed. "defaultpass" is the default password. */
-  fputs($fsocked, packpolarraystr("statuslist twojstary8")."\n");
-
-  $data = unpackpolarray(fgets($fsocked, 2020));
-  fclose($fsocked);
-  /* Now to write this array into the file for storing. Each array element will be stored */
-  /* as a newline in the file for easier reading when we block the POL refreshing due to  */
-  /* not enough time elapsing.                                                            */
-  $fdh = fopen($filename, "w") or die("Could not open file!");
-  foreach ($data as $elem) {
-    fwrite($fdh, "$elem\n");
-  }
-  fclose($fdata);
-  /* touch() is used to mark the modified date/time of the file to "now" */
-  touch($filename);
-  return $data;
-
-}
+   
 
 
 
